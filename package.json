@@ -12,6 +12,9 @@
     "clean-locales": "node scripts/clear-messages.js",
     "translate": "node scripts/translate-locale.js"
   },
+  "resolutions": {
+    "estree-walker": "2.0.2"
+  },
   "dependencies": {
     "@ai-sdk/openai": "^0.0.72",
     "@aws-sdk/client-s3": "^3.577.0",
